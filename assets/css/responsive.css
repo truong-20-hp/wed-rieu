@@ -1,0 +1,134 @@
+/*  mobi and tablet */
+@media (max-width: 1023px){
+    .hide-on-mobi-tablet{
+        display: none;
+    }
+    .show-on-mobi-tablet{
+        display: block;
+    }
+    
+    .header__cart-list::after{
+        display: none;
+
+    }
+    .header__cart-list::before{
+        display: none;
+        
+    }
+    .nav-mobi-tablet{
+        display: flex;
+    }
+    
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .header__cart {
+        margin: 0 50px;
+    }
+    .header__logo-img{
+        margin: 0 50px;
+    }
+    .header__content{
+        height: var(--height-header-tablet-mobi);
+        margin: 0 20px;
+    }
+    .header{
+        height: var(--height-header-tablet-mobi);
+    }
+    .header__cart-list{
+        top: 100px;
+        right: 0;
+        left: -386px;
+        width: 500px;
+        }
+}
+/* mobi */
+@media (max-width: 739px){
+    .hide-on-mobi{
+        display: none;
+    }
+    .show-on-mobi{
+        display: block;
+    }
+    .header__content{
+        height: 120px;
+        margin: 0 20px;
+    }
+    .header{
+        height:120px;
+    }
+    .header__cart {
+        margin: 0 10px;
+    }
+
+    .header__cart-list{
+        top: 78px;
+        right: 0;
+        left: -262px;
+       
+    }
+    .header__logo-img{
+        width: 70px;
+        margin: 0 10px;
+    }
+    .header__input{
+        width: 50px;
+    }
+    .header__search-history{
+        display: none;
+    }
+    .container__brand{
+        margin: 20px 0;
+    }
+    .brand__heading-name{
+        font-size: 3rem;
+        margin-left: 5px;
+    }
+    .brand__sub{
+        font-size: 1.4rem;
+        margin-top: 8px
+    }
+
+    .wine-name{
+        margin: 2px 12px 0;
+    }
+
+    .wine-buy{
+        padding: 4px 8px;
+        margin-top: -4px;
+    }
+
+    .page-item-link{
+        padding: 2px 4px;
+    }
+    .footer__item{
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .favourite__name-sub{
+        font-size: 1.5rem;
+        height: 48px;
+    }
+    .favourite__brand{
+        font-size: 1.6rem;
+    }
+    .favourite__name{
+        height: 40px;
+    }
+    .category__item-with-price-link{
+        padding : 10px 2px;
+    }
+    .category__item-with-price{
+        width: 100px;
+        margin-left: 4px;
+    }
+    .container__grid {
+        margin: 5px 0;
+    }
+    .container__category-mobi{
+        display: block;
+    }
+}
